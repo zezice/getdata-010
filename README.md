@@ -7,6 +7,7 @@ This script cleans data collected on means and standard deviations from accelero
 The data set produced contains the mean for each variable for each subject and activity in a tbl\_df named *tbl*.
 
 It meets the criteria for tidy data by arranging the data so that:
+
 1. Each variable forms a column.
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
