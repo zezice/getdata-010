@@ -45,9 +45,9 @@ Each of the columns in the final dataset *tbl* represent averages of the variabl
 
 Here is the complete list of variables:
 
-1   Subject
-2	Activity
-3	tBodyAcc.mean.X
+1. Subject
+2. Activity
+3. tBodyAcc.mean.X
 4	tBodyAcc.mean.Y
 5	tBodyAcc.mean.Z
 6	tBodyAcc.std.X
