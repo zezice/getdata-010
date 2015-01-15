@@ -48,7 +48,7 @@ tbl <- mergedDF %>%
 group_by(Subject, Activity) %>%
 summarise_each(funs(mean))
 
-## Write file to table
+## Write data set to file
 
 write.table(tbl, file="tidy_data.txt", row.names=FALSE)
 

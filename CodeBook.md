@@ -41,7 +41,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
-_IMPORTANT: Each of the columns in the outputted data set represent averages of the variable for each Subject in the test and Activity measured. Rather than rewriting this description for each variable below, it is provided here once._
+**IMPORTANT: Each of the columns in the outputted data set represent averages of the variable for each Subject in the test and Activity measured. Rather than rewriting this description for each variable below, it is provided here once.**
 
 Here is the complete list of variables:
 
