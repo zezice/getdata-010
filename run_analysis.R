@@ -48,6 +48,10 @@ tbl <- mergedDF %>%
 group_by(Subject, Activity) %>%
 summarise_each(funs(mean))
 
+## Write file to table
+
+write.table(tbl, file="tidy_data.txt", row.names=FALSE)
+
 ## Cleanup: Remove unnecessary variables
 
 rm(subject_test,
@@ -61,4 +65,5 @@ rm(subject_test,
    test,
    train,
    names,
-   mergedDF)
+   mergedDF,
+   tbl)
