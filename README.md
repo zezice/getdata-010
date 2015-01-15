@@ -4,6 +4,8 @@
 
 This script should be run with your working directory set to the directory that contains the Samsung data. The script contains no functions, but rather will output the cleaned data set as a txt file called 'tidy\_data.txt' to your working directory after you type the command 'source("run\_analysis.R")'.
 
+This script was written on a Mac, so if you have issues running the script on a Windows machine you may need to alter the file paths in the code to contain backslashes instead of forward slashes.
+
 Note that the data set is not kept in your global environment, so per CTA directions, instructions are also provided here on how to read the file back into R and view the data:
 
 * data <- read.table(file_path, header = TRUE)
