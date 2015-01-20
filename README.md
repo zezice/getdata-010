@@ -4,8 +4,9 @@
 
 Using this script is very simple:
 
-1. Set your working directory to the directory that contains the Samsung data. 
-2. Type the command: source("run\_analysis.R")
+1. Set your working directory to the directory that contains the Samsung data.
+2. Place this script in the same folder.
+3. Type the command: source("run\_analysis.R")
 
 That's it. After you source the script it will output the cleaned data set as a txt file called 'tidy\_data.txt' to your working directory.
 
@@ -38,7 +39,7 @@ It prepares the data in 5 steps:
 
 The 'tidy\_data.txt' file is generated from the data set produced on Step 5.
 
-An unrequired step that is not performed is to convert all the variable names to lower-case and remove all non-alpha characters from them. As this was not covered until Week 4 material (presumably not required to be covered until after this assignment was due) and I had already finished all the files, I chose not to redo them. I leave this only as a note to potential graders who may have worked ahead in the material, but forgotten this is not a required part of the assignment.
+An unrequired step that is not performed is to convert all the variable names to lower-case and remove all non-alpha characters from them. As this was not covered until Week 4 material (presumably not required to be covered until after this assignment was due) and I had already finished all the files at that point, I chose not to redo them. I leave this only as a note to potential graders who may have worked ahead in the material, in order to remind them that this is not a required part of the assignment.
 
 Further notes on how and why each step was performed can be found in the comments of run_analysis.R.
 
